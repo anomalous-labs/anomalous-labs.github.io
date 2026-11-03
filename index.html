@@ -9,9 +9,9 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <style>
-    :root { --fg: #000; --bg: #fff; --muted: #57606a; }
+    :root { --fg: #000; --bg: #fff; }
     @media (prefers-color-scheme: dark) {
-      :root { --fg: #fff; --bg: #000; --muted: #9198a1; }
+      :root { --fg: #fff; --bg: #000; }
     }
     html, body { height: 100%; margin: 0; }
     body {
@@ -23,20 +23,10 @@
       color: var(--fg);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     }
-    main { text-align: center; }
-    svg { display: block; width: min(240px, 60vw); height: auto; margin: 0 auto; }
-    h1 { margin: 8px 0 0; font-size: 1.5rem; font-weight: 600; letter-spacing: -0.01em; }
-    a { display: inline-block; margin-top: 12px; color: var(--muted); font-size: 0.95rem; }
-    a:hover { color: var(--fg); }
+    h1 { margin: 0; font-size: 1.5rem; font-weight: 600; letter-spacing: -0.01em; text-align: center; }
   </style>
 </head>
 <body>
-  <main>
-    <svg viewBox="100 200 800 600" role="img" aria-label="Anomalous Labs logo: a lowercase Greek alpha">
-      <path d="M 691.4 276.8 C 659 410 583.4 699.8 378.2 699.8 C 255.8 699.8 185.6 604.4 185.6 500 C 185.6 395.6 255.8 300.2 378.2 300.2 C 493.4 300.2 543.8 402.8 583.4 491 C 623 579.2 651.8 690.8 727.4 690.8 C 786.8 690.8 826.4 622.4 848 543.2" fill="none" stroke="currentColor" stroke-width="108" stroke-linecap="butt" stroke-linejoin="round"/>
-    </svg>
-    <h1>Anomalous Labs</h1>
-    <a href="https://github.com/anomalous-labs">GitHub</a>
-  </main>
+  <h1>Anomalous Labs</h1>
 </body>
 </html>
